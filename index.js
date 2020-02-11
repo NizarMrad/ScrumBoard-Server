@@ -8,7 +8,7 @@ const App = express();
 App.use(bodyParser.json());
 App.use(cors());
 
-mongoose.connect("mongodb://localhost/db-scrum-new", {
+mongoose.connect("mongodb://localhost/scrumBoard", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
