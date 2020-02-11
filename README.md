@@ -23,7 +23,7 @@ npm install
 Run the project :
 
 ```
-npm start
+nodemon index.js
 ```
 
 ## Features
